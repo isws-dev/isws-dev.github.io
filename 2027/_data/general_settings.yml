@@ -3,12 +3,12 @@ title: "ISWS 2027 – International Semantics and Knowledge School"
 email: "tortoizthemes@gmail.com"
 email_2: "support@tortoizthemes.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the website for ISWS
-favicon: "/2027/assets/images/favicon.webp"
+  ISWS 2027 – International Semantics and Knowledge School, 6–12 June 2027
+favicon: "/assets/images/isws-favicon.png"
 
 # Seo Meta Settings
-meta_og_image: "/2027/assets/images/meta-image.webp"
-meta_twitter_image: "/2027/assets/images/meta-image.webp"
+meta_og_image: "/assets/images/meta-image.webp"
+meta_twitter_image: "/assets/images/meta-image.webp"
 
 # Site Wide Theme Color Setting
 color_scheme:  #Aqua Blue Brown Cobalt Green Hibiscus Leaf Meander Orange Pink Purple Red Rose Sky Teal Violet Yellow
@@ -17,17 +17,17 @@ color_scheme:  #Aqua Blue Brown Cobalt Green Hibiscus Leaf Meander Orange Pink P
 font_scheme:  # Jost, Nunito , DM Sans + Zilla Slab , HK Grotesk, Abhaya, Libre
 
 # Sitewide Logo
-black_logo_1x: "/2027/assets/images/logo.webp"
-black_logo_2x: "/2027/assets/images/logo@2x.webp"
-light_logo_1x: "/2027/assets/images/logo-light.webp"
-light_logo_2x: "/2027/assets/images/logo-light@2x.webp"
+black_logo_1x: "/2027/assets/images/isws-logo.svg"
+black_logo_2x: "/2027/assets/images/isws-logo@2x.svg"
+light_logo_1x: "/2027/assets/images/isws-logo-light.svg"
+light_logo_2x: "/2027/assets/images/isws-logo-light@2x.svg"
 
 # Site Wide Address and Phone Number
 address_01: 'Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom'
 phone_number: "+00 (123) 456 78 90"
 
 # Site Wide Copyright
-copyright_text: "© 2025 Snowlake. All rights reserved."
+copyright_text: "ISWS 2027 – International Semantics and Knowledge School"
 
 # Site Wide Google Analytics
 google_analytics:
@@ -42,20 +42,8 @@ google_map: |
 social_accounts:
   title: "Follow Us"
   links:
-    - url: "#"
-      icon: "jam jam-twitter"
-
-    - url: "#"
-      icon: "jam jam-facebook"
-
-    - url: "#"
-      icon: "jam jam-instagram"
-
-    - url: "#"
-      icon: "jam jam-vimeo"
-      
-    - url: "#"
-      icon: "jam jam-youtube"
+    - url: "https://www.linkedin.com/company/isws-summerschool/"
+      icon: "jam jam-linkedin"
 
 # Site Wide External Links for footer
 external_links:
