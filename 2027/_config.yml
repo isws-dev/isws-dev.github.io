@@ -1,4 +1,4 @@
-url: "https://isws-dev.github.io"   # change to https://semanticwebschool.org later
+url: "https://semanticwebschool.org"
 baseurl: "/2027"
 permalink: "/:title"
 
