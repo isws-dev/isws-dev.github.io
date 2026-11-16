@@ -1,9 +1,9 @@
 # General Settings
-title: "ISWS 2027 – International Semantics and Knowledge School"
+title: "ISWS 2027 – International Semantics and Knowledge Summer School"
 email: "tortoizthemes@gmail.com"
 email_2: "support@tortoizthemes.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  ISWS 2027 – International Semantics and Knowledge School, 6–12 June 2027
+  ISWS 2027 – International Semantics and Knowledge Summer School, 6–12 June 2027
 favicon: "/assets/images/isws-favicon.png"
 
 # Seo Meta Settings
@@ -27,7 +27,7 @@ address_01: 'Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom'
 phone_number: "+00 (123) 456 78 90"
 
 # Site Wide Copyright
-copyright_text: "ISWS 2027 – International Semantics and Knowledge School"
+copyright_text: "ISWS 2027 – International Semantics and Knowledge Summer School"
 
 # Site Wide Google Analytics
 google_analytics:

@@ -1,426 +1,432 @@
 main_menu:
-
   - text: "Home"
     url: "/2027/"
-    menu_type: "megamenu"
-    submenu:
-      - text: "Digital Startup"
-        url: "/2027/"
-      - text: "Saas Landing"
-        url: "/2027/home-pages/index-2"
-      - text: "SEO Agency"
-        url: "/2027/home-pages/index-3"
-      - text: "Modern Business"
-        url: "/2027/home-pages/index-4"
-      - text: "Design Agency"
-        url: "/2027/home-pages/index-5"
-      - text: "App Presentation"
-        url: "/2027/home-pages/index-6"
-      - text: "Creative Landing"
-        url: "/2027/home-pages/index-7"
-      - text: "Marketing Startup"
-        url: "/2027/home-pages/index-8"
-      - text: "Digital Agency"
-        url: "/2027/home-pages/index-9"
-      - text: "Creative Business"
-        url: "/2027/home-pages/index-10"
-      - text: "Software Landing"
-        url: "/2027/home-pages/index-11"
-      - text: "App Landing"
-        url: "/2027/home-pages/index-12"
-      - text: "Creative Agency"
-        url: "/2027/home-pages/index-13"
-      - text: "Wedding Photography"
-        url: "/2027/home-pages/index-14"
-      - text: "Food Photography"
-        url: "/2027/home-pages/index-15"
-      - text: "Creative Onepage"
-        url: "/2027/home-pages/index-16"
-      - text: "Marketing Company"
-        url: "/2027/home-pages/index-17"
-      - text: "Startup Business"
-        url: "/2027/home-pages/index-18"
-      - text: "Creative Resume"
-        url: "/2027/home-pages/index-19"
-      - text: "Digital Studio"
-        url: "/2027/home-pages/index-20"
-      - text: "Travel Blog"
-        url: "/2027/home-pages/index-21"
-      - text: "Minimal Shop"
-        url: "/2027/home-pages/index-22"
-      - text: "Minimal Portfolio"
-        url: "/2027/home-pages/index-23"
-      - text: "Coming Soon"
-        url: "/2027/home-pages/index-24"
-      - text: "Personal Creative"
-        url: "/2027/home-pages/index-25"
-      - text: "Minimal Photography"
-        url: "/2027/home-pages/index-26"
-      - text: "Maintenance"
-        url: "/2027/home-pages/index-27"
-  - text: "Features"
-    url: "#"
-    menu_type: "dropdown"
-    level_two:
-      - sub_menu_text: "Navigation"
-        sub_menu:
-          - text: "Classic Navigation"
-            url: "/2027/features/navigation1"
-          - text: "Classic Light Navigation"
-            url: "/2027/features/navigation2"
-          - text: "Classic Dark Navigation"
-            url: "/2027/features/navigation3"
-          - text: "Topbar Navigation"
-            url: "/2027/features/navigation4"
-          - text: "Wide Navigation"
-            url: "/2027/features/navigation5"
-          - text: "Extended Navigation"
-            url: "/2027/features/navigation6"
-          - text: "Fancy Light Navigation"
-            url: "/2027/features/navigation7"
-          - text: "Fancy Dark Navigation"
-            url: "/2027/features/navigation8"
-          - text: "Centered Navigation"
-            url: "/2027/features/navigation9"
-          - text: "Shop Navigation"
-            url: "/2027/features/navigation10"
-          - text: "Classic Navigation for Light Background"
-            url: "/2027/features/navigation11"
-      - sub_menu_text: "Page Header"
-        sub_menu:
-          - text: "Header with Image"
-            url: "/2027/features/header1"
-          - text: "Header with Breadcrumb"
-            url: "/2027/features/header2"
-          - text: "Header with no Image"
-            url: "/2027/features/header3"
-          - text: "Header with Gray Wrapper"
-            url: "/2027/features/header4"
-          - text: "Header with Dark Wrapper"
-            url: "/2027/features/header5"
-          - text: "Header with Colored Background"
-            url: "/2027/features/header6"
-          - text: "Header with Gradient"
-            url: "/2027/features/header7"
-          - text: "Header with Video Wrapper"
-            url: "/2027/features/header8"
-          - text: "Header with Section Wrapper"
-            url: "/2027/features/header9"
-          - text: "Header with Page Title"
-            url: "/2027/features/header10"
-      - sub_menu_text: "Footer"
-        sub_menu:
-          - text: "Multi Column Footer V1"
-            url: "/2027/features/footer1"
-          - text: "Centered Footer"
-            url: "/2027/features/footer2"
-          - text: "Minimal Footer"
-            url: "/2027/features/footer3"
-          - text: "Blog Footer"
-            url: "/2027/features/footer4"
-          - text: "Multi Column Footer V2"
-            url: "/2027/features/footer5"
-          - text: "Footer with Overflow"
-            url: "/2027/features/footer6"
-          - text: "Footer with Background Image"
-            url: "/2027/features/footer7"
-          - text: "Blog Footer with Background"
-            url: "/2027/features/footer8"
-    level_one:
-      - text: "Modal"
-        url: "/2027/features/modal"  
-      - text: "FAQ"
-        url: "/2027/features/faq"
-      - text: "Page Loading "
-        url: "/2027/features/loading"
-      - text: "Page Scrolling"
-        url: "/2027/features/scroll"
-        
-  - text: "Pages"
-    url: "#"
-    menu_type: "dropdown"
-    level_two:
-      - sub_menu_text: "Services"
-        sub_menu:
-          - text: "Service 01"
-            url: "/2027/services/index"
-
-          - text: "Service 02"
-            url: "/2027/services/index-2"
-
-          - text: "Service 03"
-            url: "/2027/services/index-3"
-
-          - text: "Service 04"
-            url: "/2027/services/index-4"
-
-          - text: "Service 05"
-            url: "/2027/services/index-5"
-
-      - sub_menu_text: "About Us"
-        sub_menu:
-          - text: "About 01"
-            url: "/2027/about/about"
-
-          - text: "About 02"
-            url: "/2027/about/about-2"
-
-          - text: "About 03"
-            url: "/2027/about/about-3"
-
-          - text: "About 04"
-            url: "/2027/about/about-4"
-
-      - sub_menu_text: "Shop"
-        sub_menu:
-          - text: "Shop 01"
-            url: "/2027/shop/index"
-
-          - text: "Shop 02"
-            url: "/2027/shop/index-2"
-
-          - text: "Product Page" 
-            url: "/2027/shop/brand-box"
-
-          - text: "Featurd Product Page"
-            url: "/2027/shop/featured/featured_product1"
-
-          - text: "Cart Page"
-            url: "/2027/shop/cart"
-          
-          - text: "Checkout Page"
-            url: "/2027/shop/checkout"
-
-      - sub_menu_text: "Contact"
-        sub_menu:
-          - text: "Contact 01"
-            url: "/2027/contact/contact-1"
-
-          - text: "Contact 02"
-            url: "/2027/contact/contact-2"
-
-          - text: "Contact 03"
-            url: "/2027/contact/contact-3"
-
-          - text: "Contact 04"
-            url: "/2027/contact/contact-4"
-
-   
-
-  - text: "Elements"
-    url: "#"
-    menu_type: "megamenu"
-    submenu:
-
-      - text: "Accordion"
-        url: "/2027/elements/accordion"
-
-      - text: "Dividers"
-        url: "/2027/elements/dividers"
-
-      - text: "Lightbox"
-        url: "/2027/elements/lightbox"
-
-      - text: "Tabs"
-        url: "/2027/elements/tabs"
-
-      - text: "Alerts"
-        url: "/2027/elements/alerts"
-
-      - text: "Dropcap"
-        url: "/2027/elements/dropcap"
-
-      - text: "Lists"
-        url: "/2027/elements/lists"
-
-      - text: "Team"
-        url: "/2027/elements/team"
-
-      - text: "Animated Text"
-        url: "/2027/elements/animated_text"
-
-      - text: "Forms"
-        url: "/2027/elements/forms"
-
-      - text: "Media Player"
-        url: "/2027/elements/media_player"
-
-      - text: "Testimonials"
-        url: "/2027/elements/testimonials"
-
-      - text: "Blockquote"
-        url: "/2027/elements/blockquote"
-
-      - text: "Buttons & Badges"
-        url: "/2027/elements/buttons_badges"
-
-      - text: "Call to Action"
-        url: "/2027/elements/call_to_action"
-
-      - text: "Carousel"
-        url: "/2027/elements/carousel"
-
-      - text: "Clients"
-        url: "/2027/elements/clients"
-
-      - text: "Countdown"
-        url: "/2027/elements/countdown"
-
-      - text: "Counter"
-        url: "/2027/elements/counter"
-
-      - text: "Icons - Concept"
-        url: "/2027/elements/icons_concept"
-
-      - text: "Icons - Jam"
-        url: "/2027/elements/icons_jam"
-
-      - text: "Icons - Icofont"
-        url: "/2027/elements/icons_icofont"
-
-      - text: "Icons - Lineal"
-        url: "/2027/elements/icons_lineal"
-
-      - text: "Icon Box"
-        url: "/2027/elements/icon_box"
-
-      - text: "Image Hover"
-        url: "/2027/elements/image_hover"
-
-      - text: "Image Mask"
-        url: "/2027/elements/icons_image_mask"
-
-      - text: "Modal"
-        url: "/2027/elements/modal"
-
-      - text: "Pricing Tables"
-        url: "/2027/elements/pricing"
-
-      - text: "Process Steps"
-        url: "/2027/elements/process_steps"
-
-      - text: "Progress Bar"
-        url: "/2027/elements/progress_bar"
-
-      - text: "Scroll Animations"
-        url: "/2027/elements/scroll_animations"
-
-      - text: "Social Icons"
-        url: "/2027/elements/social_icons"
-
-      - text: "Tables"
-        url: "/2027/elements/tables"
-
-      - text: "Titles"
-        url: "/2027/elements/titles"
-
-      - text: "Toggle"
-        url: "/2027/elements/toggle"
-
-      - text: "Tooltip & Popover"
-        url: "/2027/elements/tooltip_popover"
-
-      - text: "Typography"
-        url: "/2027/elements/typography"
-
-      - text: "Video Popup"
-        url: "/2027/elements/video_popup"
-
-      - text: "Waves"
-        url: "/2027/elements/waves"
-
-      - text: "Wrappers"
-        url: "/2027/elements/wrappers"
-
-  - text: "Portfolio"
-    url: "#"
-    level_one:
-      - text: "Grid Portfolio"
-        url: "/2027/portfolios/grid-portfolio"
-
-      - text: "Grid Portfolio With Details"
-        url: "/2027/portfolios/grid-portfolio-details"
-
-      - text: "Masonry Portfolio"
-        url: "/2027/portfolios/masonry-portfolio"
-
-      - text: "Masonry Portfolio With Details"
-        url: "/2027/portfolios/masonry-portfolio-details"
-
-      - text: "Mosaic Portfolio"
-        url: "/2027/portfolios/mosaic-portfolio"
-
-      - text: "Full Screen Grid Portfolio"
-        url: "/2027/portfolios/fullscreen-grid"
-
-      - text: "Portfolio With Item Details"
-        url: "/2027/portfolios/portfolio-item-details"
-
-      - text: "Box Portfolio With Item Details"
-        url: "/2027/portfolios/box-item-details"
-    level_two:
-      - sub_menu_text: "Portfolio Posts"
-        sub_menu:
-          - text: "Post with multiple images"
-            url: "/2027/portfolio/portfolio-post-multi-images"
-          - text: "Post with slider"
-            url: "/2027/portfolio/portfolio-post-slider"
-          - text: "Post with masonry gallery"
-            url: "/2027/portfolio/portfolio-post-masonry"
-          - text: "Post with carousel"
-            url: "/2027/portfolio/portfolio-post-carousel"
-          - text: "Post with columns"
-            url: "/2027/portfolio/portfolio-post-columns"
-          - text: "Post with video"
-            url: "/2027/portfolio/portfolio-post-video"
-
-  - text: "Blog"
-    url: "#"
-    menu_type: "dropdown"
-    level_one:
-      - text: "Classic Grid"
-        url: "/2027/blogs/classic-grid"
-
-      - text: "Classic Grid With Sidebar"
-        url: "/2027/blogs/classic-grid-sidebar"
-
-      - text: "Box Grid Blog"
-        url: "/2027/blogs/boxed-grid"
-
-      - text: "Box Grid Blog With Sidebar"
-        url: "/2027/blogs/boxed-grid-sidebar"
-
-      - text: "Classic Blog"
-        url: "/2027/blogs/classic"
-
-      - text: "Classic Blog with Sidebar"
-        url: "/2027/blogs/classic-sidebar"
-
-      - text: "Boxed Classic Blog"
-        url: "/2027/blogs/boxed-classic"
-
-      - text: "Boxed Classic Blog With Sidebar"
-        url: "/2027/blogs/boxed-classic-sidebar"
-    level_two:
-      - sub_menu_text: "Blog Posts"
-        sub_menu:
-          - text: "Post with sidebar"
-            url: "/2027/posts/simple-post-with-sidebar"
-          - text: "Post with no sidebar"
-            url: "/2027/posts/simple-post-with-no-sidebar"
-          - text: "Box Post with no sidebar"
-            url: "/2027/posts/post-boxed"
-          - text: "Box Post with sidebar"
-            url: "/2027/posts/post-boxed-sidebar"
-          - text: "Post with code highlight"
-            url: "/2027/posts/post-with-code-highlight"
-          - text: "Post with video"
-            url: "/2027/posts/post-with-video"
-          - text: "Post with image"
-            url: "/2027/posts/post-with-image"
-          - text: "Post with carousel"
-            url: "/2027/posts/post-with-carousel"
-          - text: "Post with Multiple Carousel"
-            url: "/2027/posts/multi-carousel-post"
-          - text: "Post with gallery"
-            url: "/2027/posts/post-with-gallery"
+    menu_type: "simple"
+
+# --- Original Snowlake demo menu, kept for reference (not used) ---
+# main_menu:
+#
+#   - text: "Home"
+#     url: "/2027/"
+#     menu_type: "megamenu"
+#     submenu:
+#       - text: "Digital Startup"
+#         url: "/2027/"
+#       - text: "Saas Landing"
+#         url: "/2027/home-pages/index-2"
+#       - text: "SEO Agency"
+#         url: "/2027/home-pages/index-3"
+#       - text: "Modern Business"
+#         url: "/2027/home-pages/index-4"
+#       - text: "Design Agency"
+#         url: "/2027/home-pages/index-5"
+#       - text: "App Presentation"
+#         url: "/2027/home-pages/index-6"
+#       - text: "Creative Landing"
+#         url: "/2027/home-pages/index-7"
+#       - text: "Marketing Startup"
+#         url: "/2027/home-pages/index-8"
+#       - text: "Digital Agency"
+#         url: "/2027/home-pages/index-9"
+#       - text: "Creative Business"
+#         url: "/2027/home-pages/index-10"
+#       - text: "Software Landing"
+#         url: "/2027/home-pages/index-11"
+#       - text: "App Landing"
+#         url: "/2027/home-pages/index-12"
+#       - text: "Creative Agency"
+#         url: "/2027/home-pages/index-13"
+#       - text: "Wedding Photography"
+#         url: "/2027/home-pages/index-14"
+#       - text: "Food Photography"
+#         url: "/2027/home-pages/index-15"
+#       - text: "Creative Onepage"
+#         url: "/2027/home-pages/index-16"
+#       - text: "Marketing Company"
+#         url: "/2027/home-pages/index-17"
+#       - text: "Startup Business"
+#         url: "/2027/home-pages/index-18"
+#       - text: "Creative Resume"
+#         url: "/2027/home-pages/index-19"
+#       - text: "Digital Studio"
+#         url: "/2027/home-pages/index-20"
+#       - text: "Travel Blog"
+#         url: "/2027/home-pages/index-21"
+#       - text: "Minimal Shop"
+#         url: "/2027/home-pages/index-22"
+#       - text: "Minimal Portfolio"
+#         url: "/2027/home-pages/index-23"
+#       - text: "Coming Soon"
+#         url: "/2027/home-pages/index-24"
+#       - text: "Personal Creative"
+#         url: "/2027/home-pages/index-25"
+#       - text: "Minimal Photography"
+#         url: "/2027/home-pages/index-26"
+#       - text: "Maintenance"
+#         url: "/2027/home-pages/index-27"
+#   - text: "Features"
+#     url: "#"
+#     menu_type: "dropdown"
+#     level_two:
+#       - sub_menu_text: "Navigation"
+#         sub_menu:
+#           - text: "Classic Navigation"
+#             url: "/2027/features/navigation1"
+#           - text: "Classic Light Navigation"
+#             url: "/2027/features/navigation2"
+#           - text: "Classic Dark Navigation"
+#             url: "/2027/features/navigation3"
+#           - text: "Topbar Navigation"
+#             url: "/2027/features/navigation4"
+#           - text: "Wide Navigation"
+#             url: "/2027/features/navigation5"
+#           - text: "Extended Navigation"
+#             url: "/2027/features/navigation6"
+#           - text: "Fancy Light Navigation"
+#             url: "/2027/features/navigation7"
+#           - text: "Fancy Dark Navigation"
+#             url: "/2027/features/navigation8"
+#           - text: "Centered Navigation"
+#             url: "/2027/features/navigation9"
+#           - text: "Shop Navigation"
+#             url: "/2027/features/navigation10"
+#           - text: "Classic Navigation for Light Background"
+#             url: "/2027/features/navigation11"
+#       - sub_menu_text: "Page Header"
+#         sub_menu:
+#           - text: "Header with Image"
+#             url: "/2027/features/header1"
+#           - text: "Header with Breadcrumb"
+#             url: "/2027/features/header2"
+#           - text: "Header with no Image"
+#             url: "/2027/features/header3"
+#           - text: "Header with Gray Wrapper"
+#             url: "/2027/features/header4"
+#           - text: "Header with Dark Wrapper"
+#             url: "/2027/features/header5"
+#           - text: "Header with Colored Background"
+#             url: "/2027/features/header6"
+#           - text: "Header with Gradient"
+#             url: "/2027/features/header7"
+#           - text: "Header with Video Wrapper"
+#             url: "/2027/features/header8"
+#           - text: "Header with Section Wrapper"
+#             url: "/2027/features/header9"
+#           - text: "Header with Page Title"
+#             url: "/2027/features/header10"
+#       - sub_menu_text: "Footer"
+#         sub_menu:
+#           - text: "Multi Column Footer V1"
+#             url: "/2027/features/footer1"
+#           - text: "Centered Footer"
+#             url: "/2027/features/footer2"
+#           - text: "Minimal Footer"
+#             url: "/2027/features/footer3"
+#           - text: "Blog Footer"
+#             url: "/2027/features/footer4"
+#           - text: "Multi Column Footer V2"
+#             url: "/2027/features/footer5"
+#           - text: "Footer with Overflow"
+#             url: "/2027/features/footer6"
+#           - text: "Footer with Background Image"
+#             url: "/2027/features/footer7"
+#           - text: "Blog Footer with Background"
+#             url: "/2027/features/footer8"
+#     level_one:
+#       - text: "Modal"
+#         url: "/2027/features/modal"  
+#       - text: "FAQ"
+#         url: "/2027/features/faq"
+#       - text: "Page Loading "
+#         url: "/2027/features/loading"
+#       - text: "Page Scrolling"
+#         url: "/2027/features/scroll"
+#
+#   - text: "Pages"
+#     url: "#"
+#     menu_type: "dropdown"
+#     level_two:
+#       - sub_menu_text: "Services"
+#         sub_menu:
+#           - text: "Service 01"
+#             url: "/2027/services/index"
+#
+#           - text: "Service 02"
+#             url: "/2027/services/index-2"
+#
+#           - text: "Service 03"
+#             url: "/2027/services/index-3"
+#
+#           - text: "Service 04"
+#             url: "/2027/services/index-4"
+#
+#           - text: "Service 05"
+#             url: "/2027/services/index-5"
+#
+#       - sub_menu_text: "About Us"
+#         sub_menu:
+#           - text: "About 01"
+#             url: "/2027/about/about"
+#
+#           - text: "About 02"
+#             url: "/2027/about/about-2"
+#
+#           - text: "About 03"
+#             url: "/2027/about/about-3"
+#
+#           - text: "About 04"
+#             url: "/2027/about/about-4"
+#
+#       - sub_menu_text: "Shop"
+#         sub_menu:
+#           - text: "Shop 01"
+#             url: "/2027/shop/index"
+#
+#           - text: "Shop 02"
+#             url: "/2027/shop/index-2"
+#
+#           - text: "Product Page" 
+#             url: "/2027/shop/brand-box"
+#
+#           - text: "Featurd Product Page"
+#             url: "/2027/shop/featured/featured_product1"
+#
+#           - text: "Cart Page"
+#             url: "/2027/shop/cart"
+#
+#           - text: "Checkout Page"
+#             url: "/2027/shop/checkout"
+#
+#       - sub_menu_text: "Contact"
+#         sub_menu:
+#           - text: "Contact 01"
+#             url: "/2027/contact/contact-1"
+#
+#           - text: "Contact 02"
+#             url: "/2027/contact/contact-2"
+#
+#           - text: "Contact 03"
+#             url: "/2027/contact/contact-3"
+#
+#           - text: "Contact 04"
+#             url: "/2027/contact/contact-4"
+#
+#
+#
+#   - text: "Elements"
+#     url: "#"
+#     menu_type: "megamenu"
+#     submenu:
+#
+#       - text: "Accordion"
+#         url: "/2027/elements/accordion"
+#
+#       - text: "Dividers"
+#         url: "/2027/elements/dividers"
+#
+#       - text: "Lightbox"
+#         url: "/2027/elements/lightbox"
+#
+#       - text: "Tabs"
+#         url: "/2027/elements/tabs"
+#
+#       - text: "Alerts"
+#         url: "/2027/elements/alerts"
+#
+#       - text: "Dropcap"
+#         url: "/2027/elements/dropcap"
+#
+#       - text: "Lists"
+#         url: "/2027/elements/lists"
+#
+#       - text: "Team"
+#         url: "/2027/elements/team"
+#
+#       - text: "Animated Text"
+#         url: "/2027/elements/animated_text"
+#
+#       - text: "Forms"
+#         url: "/2027/elements/forms"
+#
+#       - text: "Media Player"
+#         url: "/2027/elements/media_player"
+#
+#       - text: "Testimonials"
+#         url: "/2027/elements/testimonials"
+#
+#       - text: "Blockquote"
+#         url: "/2027/elements/blockquote"
+#
+#       - text: "Buttons & Badges"
+#         url: "/2027/elements/buttons_badges"
+#
+#       - text: "Call to Action"
+#         url: "/2027/elements/call_to_action"
+#
+#       - text: "Carousel"
+#         url: "/2027/elements/carousel"
+#
+#       - text: "Clients"
+#         url: "/2027/elements/clients"
+#
+#       - text: "Countdown"
+#         url: "/2027/elements/countdown"
+#
+#       - text: "Counter"
+#         url: "/2027/elements/counter"
+#
+#       - text: "Icons - Concept"
+#         url: "/2027/elements/icons_concept"
+#
+#       - text: "Icons - Jam"
+#         url: "/2027/elements/icons_jam"
+#
+#       - text: "Icons - Icofont"
+#         url: "/2027/elements/icons_icofont"
+#
+#       - text: "Icons - Lineal"
+#         url: "/2027/elements/icons_lineal"
+#
+#       - text: "Icon Box"
+#         url: "/2027/elements/icon_box"
+#
+#       - text: "Image Hover"
+#         url: "/2027/elements/image_hover"
+#
+#       - text: "Image Mask"
+#         url: "/2027/elements/icons_image_mask"
+#
+#       - text: "Modal"
+#         url: "/2027/elements/modal"
+#
+#       - text: "Pricing Tables"
+#         url: "/2027/elements/pricing"
+#
+#       - text: "Process Steps"
+#         url: "/2027/elements/process_steps"
+#
+#       - text: "Progress Bar"
+#         url: "/2027/elements/progress_bar"
+#
+#       - text: "Scroll Animations"
+#         url: "/2027/elements/scroll_animations"
+#
+#       - text: "Social Icons"
+#         url: "/2027/elements/social_icons"
+#
+#       - text: "Tables"
+#         url: "/2027/elements/tables"
+#
+#       - text: "Titles"
+#         url: "/2027/elements/titles"
+#
+#       - text: "Toggle"
+#         url: "/2027/elements/toggle"
+#
+#       - text: "Tooltip & Popover"
+#         url: "/2027/elements/tooltip_popover"
+#
+#       - text: "Typography"
+#         url: "/2027/elements/typography"
+#
+#       - text: "Video Popup"
+#         url: "/2027/elements/video_popup"
+#
+#       - text: "Waves"
+#         url: "/2027/elements/waves"
+#
+#       - text: "Wrappers"
+#         url: "/2027/elements/wrappers"
+#
+#   - text: "Portfolio"
+#     url: "#"
+#     level_one:
+#       - text: "Grid Portfolio"
+#         url: "/2027/portfolios/grid-portfolio"
+#
+#       - text: "Grid Portfolio With Details"
+#         url: "/2027/portfolios/grid-portfolio-details"
+#
+#       - text: "Masonry Portfolio"
+#         url: "/2027/portfolios/masonry-portfolio"
+#
+#       - text: "Masonry Portfolio With Details"
+#         url: "/2027/portfolios/masonry-portfolio-details"
+#
+#       - text: "Mosaic Portfolio"
+#         url: "/2027/portfolios/mosaic-portfolio"
+#
+#       - text: "Full Screen Grid Portfolio"
+#         url: "/2027/portfolios/fullscreen-grid"
+#
+#       - text: "Portfolio With Item Details"
+#         url: "/2027/portfolios/portfolio-item-details"
+#
+#       - text: "Box Portfolio With Item Details"
+#         url: "/2027/portfolios/box-item-details"
+#     level_two:
+#       - sub_menu_text: "Portfolio Posts"
+#         sub_menu:
+#           - text: "Post with multiple images"
+#             url: "/2027/portfolio/portfolio-post-multi-images"
+#           - text: "Post with slider"
+#             url: "/2027/portfolio/portfolio-post-slider"
+#           - text: "Post with masonry gallery"
+#             url: "/2027/portfolio/portfolio-post-masonry"
+#           - text: "Post with carousel"
+#             url: "/2027/portfolio/portfolio-post-carousel"
+#           - text: "Post with columns"
+#             url: "/2027/portfolio/portfolio-post-columns"
+#           - text: "Post with video"
+#             url: "/2027/portfolio/portfolio-post-video"
+#
+#   - text: "Blog"
+#     url: "#"
+#     menu_type: "dropdown"
+#     level_one:
+#       - text: "Classic Grid"
+#         url: "/2027/blogs/classic-grid"
+#
+#       - text: "Classic Grid With Sidebar"
+#         url: "/2027/blogs/classic-grid-sidebar"
+#
+#       - text: "Box Grid Blog"
+#         url: "/2027/blogs/boxed-grid"
+#
+#       - text: "Box Grid Blog With Sidebar"
+#         url: "/2027/blogs/boxed-grid-sidebar"
+#
+#       - text: "Classic Blog"
+#         url: "/2027/blogs/classic"
+#
+#       - text: "Classic Blog with Sidebar"
+#         url: "/2027/blogs/classic-sidebar"
+#
+#       - text: "Boxed Classic Blog"
+#         url: "/2027/blogs/boxed-classic"
+#
+#       - text: "Boxed Classic Blog With Sidebar"
+#         url: "/2027/blogs/boxed-classic-sidebar"
+#     level_two:
+#       - sub_menu_text: "Blog Posts"
+#         sub_menu:
+#           - text: "Post with sidebar"
+#             url: "/2027/posts/simple-post-with-sidebar"
+#           - text: "Post with no sidebar"
+#             url: "/2027/posts/simple-post-with-no-sidebar"
+#           - text: "Box Post with no sidebar"
+#             url: "/2027/posts/post-boxed"
+#           - text: "Box Post with sidebar"
+#             url: "/2027/posts/post-boxed-sidebar"
+#           - text: "Post with code highlight"
+#             url: "/2027/posts/post-with-code-highlight"
+#           - text: "Post with video"
+#             url: "/2027/posts/post-with-video"
+#           - text: "Post with image"
+#             url: "/2027/posts/post-with-image"
+#           - text: "Post with carousel"
+#             url: "/2027/posts/post-with-carousel"
+#           - text: "Post with Multiple Carousel"
+#             url: "/2027/posts/multi-carousel-post"
+#           - text: "Post with gallery"
+#             url: "/2027/posts/post-with-gallery"
