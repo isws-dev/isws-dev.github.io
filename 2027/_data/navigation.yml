@@ -2,6 +2,12 @@ main_menu:
   - text: "Home"
     url: "/2027/"
     menu_type: "simple"
+  - text: "Keynote Speakers"
+    url: "/2027/keynotes"
+    menu_type: "simple"
+  - text: "Previous Editions"
+    url: "/2027/previous-editions"
+    menu_type: "simple"
 
 # --- Original Snowlake demo menu, kept for reference (not used) ---
 # main_menu:

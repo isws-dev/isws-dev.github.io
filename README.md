@@ -26,7 +26,10 @@ isws-dev.github.io/
     ├── _data/general_settings.yml site title, description, logos, favicon, footer text, social links
     ├── _data/navigation.yml       top navigation menu
     ├── index.html                 start page (save-the-date, important dates, directors)
-    ├── assets/images/             images, logos, director photos
+    ├── keynotes.html              keynote speakers page (/2027/keynotes)
+    ├── previous-editions.html     links to earlier editions (/2027/previous-editions)
+    ├── _includes/layouts/header/isws-page-header.html   castle-image header for subpages
+    ├── assets/images/             images, logos, director and keynote speaker photos
     └── ...                        theme files and theme demo pages
 ```
 
@@ -88,6 +91,8 @@ If Jekyll stops with `cannot load such file -- <name>`, a library is missing tha
 | Logos, favicon | `2027/assets/images/` and the paths in `general_settings.yml` |
 | Header background image | `2027/assets/images/bertinoro-castle.webp` (replace the file, keep the name) |
 | Custom styles of the start page | `<style>` block at the end of `2027/index.html` |
+| Keynote speakers (names, bios, talk titles) | `2027/keynotes.html`; photos in `2027/assets/images/keynotes/` (square WebP, 480 × 480) |
+| List of previous editions | `2027/previous-editions.html` (one `<li>` per edition, newest first) |
 
 ### `/2027/` rule
 
@@ -128,6 +133,12 @@ The only exceptions are `favicon`, `meta_og_image` and `meta_twitter_image` in `
    </style>
    ```
    `nav-10` is a navigation with dark text and the navy logo, suitable for pages without a dark header image. The start page uses `nav-1` instead, which is transparent with white text and only works on top of a dark header. The `<style>` line sets the menu font to Jost, as on the start page.
+
+   For a page with the castle image as header (as on the keynote speakers and previous editions pages), replace the `nav-10` line with these two lines and drop the `<h1>`:
+   ```liquid
+   {% include layouts/nav/nav-1.html alignment_class="ms-auto" %}
+   {% include layouts/header/isws-page-header.html title="Programme" lead="6 – 12 June 2027 · Bertinoro, Italy" %}
+   ```
 
    Avoid the theme's `layout: page`: it uses a different navigation and a footer (`footer-1`) that still contains the theme's placeholder links.
 2. Add it to the menu in `2027/_data/navigation.yml`, above the commented-out demo menu:

@@ -1,0 +1,144 @@
+---
+layout: default
+title: "Previous Editions – ISWS 2027"
+meta_description: "Previous editions of ISWS, the International Semantic Web Research Summer School, held in Bertinoro, Italy since 2018."
+custom_font: font3
+---
+
+{% include layouts/nav/nav-1.html alignment_class="ms-auto" %}
+
+{% include layouts/header/isws-page-header.html title="Previous Editions" lead="Bertinoro, Italy · since 2018" %}
+
+<!--
+  One <li class="isws-edition"> per edition, newest first. Years without a school use the extra class "isws-edition-gap".
+  The 2018 and 2019 websites are offline, so they link to copies in the Internet Archive (web.archive.org).
+-->
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-9">
+        <p class="lead text-center isws-intro mb-70">Since 2018, ISWS has brought PhD students and young researchers together with leading scientists in Bertinoro for a week of lectures, keynotes and team research. Below are the websites of all previous editions and, where available, the technical reports written by the students.</p>
+
+        <ol class="isws-editions list-unstyled mb-0">
+          <li class="isws-edition isws-edition-gap">
+            <div class="isws-edition-year">2026</div>
+            <div class="isws-edition-body">
+              <p class="mb-0">No school. ISWS paused for one year to update its programme to recent developments in AI and knowledge engineering.</p>
+            </div>
+          </li>
+
+          <li class="isws-edition">
+            <div class="isws-edition-year">2025</div>
+            <div class="isws-edition-body">
+              <h4 class="mb-5">Knowledge Graphs for Reliable AI</h4>
+              <div class="meta mb-15">8 – 14 June 2025 · Bertinoro, Italy</div>
+              <div class="isws-edition-links">
+                <a href="https://2025.semanticwebschool.org/" target="_blank" rel="noopener">Website</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="isws-edition">
+            <div class="isws-edition-year">2024</div>
+            <div class="isws-edition-body">
+              <h4 class="mb-5">Knowledge Graphs and Generative AI</h4>
+              <div class="meta mb-15">9 – 15 June 2024 · Bertinoro, Italy</div>
+              <div class="isws-edition-links">
+                <a href="https://2024.semanticwebschool.org/" target="_blank" rel="noopener">Website</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="isws-edition">
+            <div class="isws-edition-year">2023</div>
+            <div class="isws-edition-body">
+              <h4 class="mb-5">Semantic Web for Creative AI</h4>
+              <div class="meta mb-15">11 – 17 June 2023 · Bertinoro, Italy</div>
+              <div class="isws-edition-links">
+                <a href="https://2023.semanticwebschool.org/" target="_blank" rel="noopener">Website</a>
+                <a href="https://arxiv.org/abs/2501.18542" target="_blank" rel="noopener">Technical report</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="isws-edition">
+            <div class="isws-edition-year">2022</div>
+            <div class="isws-edition-body">
+              <h4 class="mb-5">Knowledge Graphs and Artificial Intelligence</h4>
+              <div class="meta mb-15">3 – 9 July 2022 · Bertinoro, Italy</div>
+              <div class="isws-edition-links">
+                <a href="https://2022.semanticwebschool.org/" target="_blank" rel="noopener">Website</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="isws-edition isws-edition-gap">
+            <div class="isws-edition-year">2020 – 2021</div>
+            <div class="isws-edition-body">
+              <p class="mb-15">No school because of the COVID-19 pandemic. The edition planned for 2020 on “Knowledge Graphs and Artificial Intelligence” was moved to 2021 and then could not take place either.</p>
+              <div class="isws-edition-links">
+                <a href="https://2020.semanticwebschool.org/" target="_blank" rel="noopener">Website of the planned edition</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="isws-edition">
+            <div class="isws-edition-year">2019</div>
+            <div class="isws-edition-body">
+              <h4 class="mb-5">Knowledge Graph Evolution and Preservation</h4>
+              <div class="meta mb-15">30 June – 6 July 2019 · Bertinoro, Italy</div>
+              <div class="isws-edition-links">
+                <a href="https://web.archive.org/web/20200225030133/http://2019.semanticwebschool.org/" target="_blank" rel="noopener">Website (archived)</a>
+                <a href="https://arxiv.org/abs/2012.11936" target="_blank" rel="noopener">Technical report</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="isws-edition">
+            <div class="isws-edition-year">2018</div>
+            <div class="isws-edition-body">
+              <h4 class="mb-5">Linked Open Data Validity</h4>
+              <div class="meta mb-15">1 – 7 July 2018 · Bertinoro, Italy · first edition</div>
+              <div class="isws-edition-links">
+                <a href="https://web.archive.org/web/20190315171455/http://isws2018.semanticwebschool.org/" target="_blank" rel="noopener">Website (archived)</a>
+                <a href="https://arxiv.org/abs/1903.12554" target="_blank" rel="noopener">Technical report</a>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <!--/column -->
+    </div>
+    <!--/.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.wrapper -->
+
+{% include layouts/footer/footer-3.html %}
+
+<style>
+  .isws-intro { max-width: 46rem; margin-left: auto; margin-right: auto; color: #60697b; }
+  .isws-editions { position: relative; }
+  /* vertical timeline line, running through the middle of the year column */
+  .isws-editions::before { content: ""; position: absolute; top: .5rem; bottom: .5rem; left: 9rem; width: 2px; background: rgba(23, 41, 131, 0.12); }
+  .isws-edition { position: relative; display: flex; gap: 3rem; padding-bottom: 2.75rem; }
+  .isws-edition:last-child { padding-bottom: 0; }
+  .isws-edition::before { content: ""; position: absolute; left: calc(9rem - 5px); top: .55rem; width: 12px; height: 12px; border-radius: 50%; background: #e8601c; box-shadow: 0 0 0 4px #fff; }
+  .isws-edition-year { flex: 0 0 7.5rem; text-align: right; font-size: 1.6rem; font-weight: 700; line-height: 1.2; color: #172983; }
+  .isws-edition-body { flex: 1; padding-left: 1rem; }
+  .isws-edition-body h4 { color: #172983; }
+  .isws-edition-links a { display: inline-block; margin: 0 6px 6px 0; padding: 5px 16px; border-radius: 999px; background: rgba(23, 41, 131, 0.08); color: #172983; font-size: .85rem; font-weight: 600; letter-spacing: .02em; transition: background .2s, color .2s; }
+  .isws-edition-links a:hover { background: #172983; color: #fff; }
+  .isws-edition-gap .isws-edition-year { font-size: 1.1rem; font-weight: 600; color: #a5abb8; padding-top: .2rem; }
+  .isws-edition-gap::before { background: #c9ced8; }
+  .isws-edition-gap .isws-edition-body p { color: #8a8f99; font-style: italic; }
+  @media (max-width: 767px) {
+    .isws-editions::before { left: 5px; }
+    .isws-edition { flex-direction: column; gap: .25rem; padding-left: 2rem; }
+    .isws-edition::before { left: 0; }
+    .isws-edition-year { flex: none; text-align: left; }
+    .isws-edition-body { padding-left: 0; }
+  }
+  .navbar-nav .nav-link, .dropdown-item { font-family: 'Jost', sans-serif !important; }
+</style>

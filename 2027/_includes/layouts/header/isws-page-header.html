@@ -1,0 +1,27 @@
+{% comment %}
+  ISWS subpage header: compact version of the start-page hero (castle image with navy overlay).
+  Use it right after nav-1 (transparent navigation with white text), for example:
+    include layouts/nav/nav-1.html alignment_class="ms-auto"
+    include layouts/header/isws-page-header.html title="Keynote Speakers" lead="6 – 12 June 2027 · Bertinoro, Italy"
+  The curved bottom edge is filled with the light-wrapper colour, so the next section should be a light-wrapper.
+{% endcomment %}
+<div class="wrapper image-wrapper bg-image inverse-text isws-page-header" data-image-src="/2027/assets/images/bertinoro-castle.webp">
+  <div class="container text-center">
+    <h1 class="display-1 color-white mb-15">{{ include.title }}</h1>
+    {% if include.lead %}<p class="lead larger color-white mb-0">{{ include.lead }}</p>{% endif %}
+  </div>
+  <div class="isws-page-header-divider"><svg xmlns="http://www.w3.org/2000/svg" class="fill-light-wrapper" preserveAspectRatio="none" viewBox="0 0 1070 20.98">
+      <path d="M0,0V21H1070V0A6830.24,6830.24,0,0,1,0,0Z" /></svg></div>
+</div>
+
+<style>
+  .isws-page-header { position: relative; padding: 11rem 0 6.5rem; background-size: cover; background-position: 78% 35%; }
+  .isws-page-header::before { content: ""; position: absolute; inset: 0; background: rgba(10, 20, 73, 0.72); }
+  .isws-page-header .container { position: relative; }
+  /* more specific than the theme's ".image-wrapper:not(.no-overlay) *", which sets position: relative on all children */
+  .image-wrapper.isws-page-header > .isws-page-header-divider { position: absolute; left: 0; bottom: -1px; width: 100%; line-height: 0; z-index: 2; }
+  .isws-page-header-divider svg { width: 100%; height: 40px; display: block; }
+  @media (max-width: 991px) {
+    .isws-page-header { padding: 8rem 0 5rem; }
+  }
+</style>
