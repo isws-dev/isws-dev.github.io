@@ -27,6 +27,7 @@ isws-dev.github.io/
     ├── _data/navigation.yml       top navigation menu
     ├── index.html                 start page (save-the-date, important dates, directors)
     ├── keynotes.html              keynote speakers page (/2027/keynotes)
+    ├── venue.html                 venue, travel directions, map (/2027/venue)
     ├── previous-editions.html     links to earlier editions (/2027/previous-editions)
     ├── _includes/layouts/header/isws-page-header.html   castle-image header for subpages
     ├── assets/images/             images, logos, director and keynote speaker photos
@@ -92,6 +93,7 @@ If Jekyll stops with `cannot load such file -- <name>`, a library is missing tha
 | Header background image | `2027/assets/images/bertinoro-castle.webp` (replace the file, keep the name) |
 | Custom styles of the start page | `<style>` block at the end of `2027/index.html` |
 | Keynote speakers (names, bios, talk titles) | `2027/keynotes.html`; photos in `2027/assets/images/keynotes/` (square WebP, 480 × 480) |
+| Venue, travel directions, map | `2027/venue.html`; photos in `2027/assets/images/venue/` (from Wikimedia Commons, credited at the bottom of the page; keep the credit line when replacing or adding photos) |
 | List of previous editions | `2027/previous-editions.html` (one `<li>` per edition, newest first) |
 
 ### `/2027/` rule
